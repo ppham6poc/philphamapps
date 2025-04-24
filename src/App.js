@@ -2,7 +2,9 @@ import React from 'react';
 
 function App() {
   const value = 'World';
-  return <div>Hello {value}</div>;
+  return <>
+    <div>Simple Public Accessible Hello {value} React App.</div>
+  </>;
 }
 
 export default App;
